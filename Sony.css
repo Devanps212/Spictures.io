@@ -1,0 +1,531 @@
+@font-face {
+    font-family: Upfont;
+    src: url(Fonts/Acumin-RPro.otf);
+}
+@font-face {
+    font-family: bodyfont;
+    src: url(Fonts/static/Oswald-ExtraLight.ttf);
+}
+@font-face {
+    font-family: sub;
+    src: url(Fonts/FontsFree-Net-Acumin-Pro-Book.ttf);
+}
+@font-face {
+    font-family: Bold;
+    src: url(Fonts/static/Oswald-Medium.ttf);
+}
+
+html,body
+{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    
+
+    
+}
+
+
+.Top
+{
+    width: 100%;
+    height: 99px;
+    background-color: black;
+    margin: 0px;
+
+}
+.menu
+{
+    width: 2.33%;
+    color: white;
+    float: left;
+    border-left-width: 34px;
+    margin-left:26px;
+    margin-top: 50px;
+    
+    
+}
+.Tlmenu
+{
+    background-color:white; 
+    width:19px;
+    height:1.65px;
+    border-radius:4px;
+    margin: 6px ;
+}
+.SP-logo
+{
+    color: white;
+    padding-top: 55.98px;
+    padding-left: 67px;
+}
+.H-Titles
+{
+    margin-right: 70.3px;
+}
+.list
+{
+    margin-right: 842px;
+    color: white;
+    font-family:Upfont ;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 185px;
+    margin-top: -17px;
+}
+
+.H-Titles:hover
+{
+    color: grey;
+    background-color: black;
+}
+.logo
+{
+    margin-top: -89px;
+    margin-left: 1455px;
+}
+#sony
+{
+    margin-left: -23px;
+}
+.Fdisplay
+{
+    width: 100%;
+    height: 830px;
+}
+#ASV
+{
+    width: 100%;
+    height: 650px;
+}
+#SMASV
+{
+    font-family: Upfont;
+    color: white;
+    margin-top: -491px;
+    padding-left: 76px;
+    font-size: 4rem;
+    line-height: 1.50;
+    width: 663px;
+    text-shadow: 0px 0px 3px black;
+}
+#date
+{
+    color:white;
+    font-family: Upfont;
+    padding-left: 76px;
+    font-size: 21.9px;
+    font-weight: 500;
+    margin-top: -27px;
+    width: 200px;
+}
+.S-T
+{
+    width: 379px;
+    height: 169px;
+}
+.site
+{
+    padding-left: 11px;
+    margin-top: 4px;
+    width: 484px;
+
+
+}
+.all
+{
+    color: white;
+    list-style: none;
+    display: flex;
+    padding-top: 7px;
+}
+#web
+{
+    font-family: Upfont;
+    border-style: solid;
+    border-radius: 31px;
+    width: 115.1px;
+    margin-left: 30px;
+    margin-top: -8px;
+    padding-top: 12px;
+    padding-left: 34px;
+    border-width: 1px;
+    height: 30px;
+    background-color:#cb4437;
+    border-color: #cb4437;
+}
+#Video
+{
+    font-family: Upfont;
+    border-style: solid;
+    border-radius: 31px;
+    width: 120px;
+    padding-bottom: 11px;
+    margin-left: 9px;
+    margin-top: -8px;
+    padding-top: 12px;
+    padding-left: 27px;
+    border-width: 1px;
+    height: 18px;
+    background-color:#cb4437;
+    border-color: #cb4437;
+}
+#circle
+{
+    
+    width: 43px;
+    height: 44px;
+    background-color:#cb4437 ;
+    border-radius: 42px;
+    margin-left: 10px;
+    margin-top: -8px;
+}
+.all:hover
+{
+  background-color: #bf453a;
+}
+.V-gallery
+{
+    font-family: bodyfont;
+    color: white;
+
+}
+#gallery
+{
+    padding-left: 67px;
+    margin-top: -62px;
+    width: 177px;
+    font-size: 28.2px;
+    font-stretch: expanded;
+    font-weight: 600;
+}
+.videogallery
+{
+    padding-right: -50px;
+    width: 1483px;
+
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding-left: 36px;
+    padding-bottom: 61px;
+}
+.Movies
+{
+    width: 410px;
+    height: 230px;
+    margin-top: -3.2px;
+    margin-right: -19px;
+    margin-left: 33px;
+    position: relative;
+    border: solid;
+    border-width: 1px;
+}
+.inv
+{
+    width: 0px;
+    height: 230px;
+    margin-top: -2.8px;
+    margin-right: 129px;
+    margin-left: 30px;
+    padding-right: 109px;
+    position: relative;
+
+}
+.Youtube
+{
+    width: 64px;
+    position: absolute;
+    padding-left: 172px;
+    padding-top: 93px;
+}
+.Arrow
+{
+    margin-top: 87px;
+    width: 32px;
+    position: absolute;
+    border: solid;
+    height: 40px;
+    border-color: #fff;
+    margin-left: 52px;
+    border-radius: 26px;
+    padding-left: 7px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-right: 7px;
+    border: 2px solid #fff;
+    opacity: 0.5;
+}
+
+.Sdisplay
+{
+    background-color: black;
+    width: 100%;
+    height: 50rem;
+}
+#new
+{
+    color: white;
+    font-family: Bodyfont;
+    padding-left: 69px;
+    padding-top: 26px;
+    font-size: 27px;
+    padding-bottom: 2px;
+}
+.Background
+{
+    background-color: black;
+    width: 85.09rem;
+    height:42.2rem;
+    margin-left: 78px;
+    padding-top: 0px;
+}
+.missing
+{
+    width: 43.5rem;
+    height: 38rem;
+    margin-top: 1px;
+}
+#Msng
+{
+    width: 43.6rem;
+    height: 37.9rem;
+}
+#name
+{
+    color: white;
+    font-family: sub;
+    line-height: 28px;
+    margin-top: -92px;
+    padding-left: 36px;
+    font-size: 36.1px;
+}
+#sales
+{
+    color: white;
+    font-family: Upfont, sans-serif;
+    font-weight: 500;
+    padding-left: 36px;
+    margin-top: -2px;
+    font-size: 18px;
+}
+.Otto
+{
+    padding-left: 187px;
+    display: flex;
+    margin-top: -608px;
+    margin-left: 531px;
+    height: 292px;
+}
+.IWDS
+{
+    padding-left: 89px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 531px;
+
+}   
+#dance
+{
+    height: 363px;
+    margin-left: 98px;
+    
+}
+#story
+
+{
+    margin-left: -611px;
+    color: white;
+    font-family: sub;
+    padding-top: 172px;
+    font-size: 36.1px;
+    margin-right: -6px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.2), 0 1px 3px rgba(0,0,0,0.6);
+    
+    
+    
+}
+#sell
+{
+    margin-left: -286px;
+    color: white;
+    padding-top: 234px;
+    font-family: sub;
+    font-weight: 500;
+    text-shadow: 0 0 3px black;
+    font-size: 18px;
+}
+#idance
+{
+    margin-left: -613px;
+    color: white;
+    font-family: sub;
+    padding-top: 243px;
+    font-size: 36.1px;
+    margin-right: -6px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.2), 0 1px 3px rgba(0,0,0,0.6);
+    
+}
+#sold
+{
+    margin-left: -498px;
+    color: white;
+    padding-top: 304.5px;
+    font-family: sub;
+    font-weight: 500;
+    text-shadow: black 0px 0px 3px;
+    font-size: 18px;
+}
+
+
+.Tdisplay
+{
+    width: 100%;
+    height: 37.4rem;
+    background-color: black;
+    padding-top: 1px;
+}
+.new-movies
+{
+    display: flex;
+    justify-content: normal;
+    margin-left: 68px;
+    padding-top: 0px;
+    margin-top: -5px;
+}
+#release
+{
+    color: white;
+    font-family: Bodyfont;
+    font-size: 30px;
+    padding-left: 68px;
+    padding-top: 0.3px;
+}
+.spidermanAcross
+{
+    margin-right: 15.4px;
+    
+}
+#SF
+{
+    color: white;
+    font-family: Bodyfont;
+    font-size: 30px;
+    padding-left: 68px;
+    padding-top: 22.3px;
+
+}
+.image
+{
+    border: solid #352424 0.1px;
+}
+
+footer
+{
+    width: 100%;
+    height: 24.1rem;
+    background-color: #050811;
+}
+.log
+{
+    padding-top: 54px;
+    padding-left: 62px;
+}
+.India
+{
+    margin-left: 62px;
+    margin-top: 7px;
+    width: 27px;
+    height: 24px;
+    border-radius: 26px;
+}
+.IN
+{
+    color: white;
+    font-size: 16.3px;
+    padding-left: 103px;
+    margin-top: -30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section
+{
+    padding-left: 44.4rem;
+    margin-top: -79px;
+    font-size: 11px;
+    list-style: none;
+    height: 223px;
+    color: white;
+}
+#sec
+{   
+    padding-top: 1px;
+    font-family: Bodyfont;
+}
+#i
+{
+padding-top: 5px;
+font-family: Upfont;
+font-size: 16px;
+}
+#it
+{
+padding-top: 21px;
+font-family: Upfont;
+font-size: 16px;
+}
+#ite
+{
+padding-top: 20px;
+font-family: Upfont;
+font-size: 16px;
+}
+#item
+{
+padding-top: 21px;
+font-family: Upfont;
+font-size: 16px;
+}
+.comm
+{
+    font-family: Bodyfont;
+    padding-left: 82.8rem;
+    font-size: 22.8px;
+    margin-top: -218px;
+    color: white;
+}
+.cl
+{
+    width: 528px;
+    margin-top: 249px;
+    padding-left: 23px;
+}
+.app
+{
+    margin-right: 52px;
+    margin-top: -17px;
+}
+.PP
+{
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    font-family: 'sub';
+    color: white;
+    margin-bottom: -7px;
+    margin-right: -4px;
+}
+.sonyp
+{
+ box-sizing: inherit;
+ color: white;
+ overflow: hidden;
+ text-align: end;
+ margin-top: 0px;
+ font-size: 14.5px;
+ font-family: Upfont;
+ font-weight: 500;
+}
+
